@@ -30,3 +30,83 @@
 *.exe
 *.out
 *.app
+
+# ----------------------
+# Visual Studio 관련
+# ----------------------
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.opendb
+
+# ----------------------
+# 빌드 결과물
+# ----------------------
+bin/
+obj/
+[Bb]uild/
+[Bb]uilds/
+x64/
+x86/
+[Aa]rm/
+[Aa]rm64/
+
+# ----------------------
+# NuGet 관련
+# ----------------------
+packages/
+*.nupkg
+project.lock.json
+project.assets.json
+PackageLock.json
+
+# ----------------------
+# 테스트/커버리지
+# ----------------------
+TestResults/
+*.coverage
+*.coveragexml
+*.vsp
+*.vspx
+*.sap
+
+# ----------------------
+# 시스템 파일
+# ----------------------
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ----------------------
+# 로그 및 백업
+# ----------------------
+*.log
+*.bak
+*.old
+
+# ----------------------
+# 기타
+# ----------------------
+*.tmp
+*.cache
+*.dbmdl
+*.pdb
+*.ipch
+*.tlog
+*.ilk
+*.obj
+*.exe
+*.dll
+*.lib
+*.idb
+
+# CMake (혹시 쓸 경우)
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
